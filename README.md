@@ -6,6 +6,8 @@ VirtualApp 9.0适配版本\
 商业版请去这里https://github.com/asLody/VirtualApp
 
 **本项目仅用于学习使用，严禁用于任何商业用途**
+# 如何实现的
+[CSDN博客](https://blog.csdn.net/yutao52shi/article/details/102555689)
 
 # 使用方法:
 1. 安装特定版本的客户端(放在clients目录下)
