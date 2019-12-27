@@ -9,7 +9,7 @@ __KEY_SERVER_HOST = 'http://172.16.70.147:8889/api'
 
 def search_user(keyword, pcursor=None):
     key_req_json = {
-        'url': 'http://api.ksapisrv.com/rest/n/search/user?app=0&kpf=ANDROID_PHONE&ver=6.4&c=BAIDU',
+        'url': 'http://apissl.gifshow.com/rest/n/search/user?app=0&kpf=ANDROID_PHONE&ver=6.4&c=BAIDU',
         'commonParams': 'mod=huawei%28MI%208%29&appver=6.4.0.9003&ftt=K-F-T&isp=CTCC&kpn=KUAISHOU&'
                         'lon=33.337841&language=zh-cn&sys=ANDROID_9&max_memory=512&ud=0&country_code=cn&'
                         'pm_tag=11694575470&oc=BAIDU&hotfix_ver=&did_gt=1539073091012&iuid=&net=WIFI&'
@@ -23,7 +23,7 @@ def search_user(keyword, pcursor=None):
             'User-Agent': ['kwai-android'],
             'Accept-Language': ['zh-cn'],
             'X-REQUESTID': ['193601906'],
-            'Host': ['api.ksapisrv.com']
+            'Host': ['apissl.gifshow.com']
         },
         'method': 'post'
     }
@@ -52,7 +52,7 @@ def search_user(keyword, pcursor=None):
 
 def get_video(uid, pcursor=None):
     key_req_json = {
-        'url': 'http://api.ksapisrv.com/rest/n/feed/profile2?app=0&kpf=ANDROID_PHONE&ver=6.4&c=BAIDU',
+        'url': 'http://apissl.gifshow.com/rest/n/feed/profile2?app=0&kpf=ANDROID_PHONE&ver=6.4&c=BAIDU',
         'commonParams': 'mod=huawei%28MI%208%29&appver=6.4.0.9003&ftt=K-F-T&isp=CTCC&kpn=KUAISHOU&'
                         'lon=33.337841&language=zh-cn&sys=ANDROID_9&max_memory=512&ud=0&country_code=cn&'
                         'pm_tag=11694575470&oc=BAIDU&hotfix_ver=&did_gt=1539073091012&iuid=&net=WIFI&'
@@ -66,7 +66,7 @@ def get_video(uid, pcursor=None):
             'User-Agent': ['kwai-android'],
             'Accept-Language': ['zh-cn'],
             'X-REQUESTID': ['193601906'],
-            'Host': ['api.ksapisrv.com']
+            'Host': ['apissl.gifshow.com']
         },
         'method': 'post'
     }
